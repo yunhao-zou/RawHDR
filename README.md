@@ -24,7 +24,7 @@ In total, we collect 324 pairs of Raw/HDR images using Canon 5D Mark IV camera. 
 ------
 
 ## Dataset Link
-You can download both the training data and testing data of this dataset at [**[RawHDR]**](链接: https://pan.baidu.com/s/1HOxGhTEY9whGxbEEw1QAjw). (Extraction Code: 4fxm)
+You can download both the training data and testing data of this dataset at [**[RawHDR]**](https://pan.baidu.com/s/1HOxGhTEY9whGxbEEw1QAjw). (Extraction Code: 4fxm)
 
 ------
 
