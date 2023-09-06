@@ -1,6 +1,6 @@
 # RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image
 
-​This is the dataset and code for RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image, ICCV 2023, by Yunhao Zou, Chenggang Yan, and Ying Fu.
+​This is the dataset and code for [**RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image**](https://arxiv.org/abs/2309.02020), ICCV 2023, by Yunhao Zou, Chenggang Yan, and Ying Fu.
 
 ------
 ## News
