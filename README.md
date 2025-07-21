@@ -3,9 +3,33 @@
 ​This is the dataset and code for [**RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image**](https://arxiv.org/abs/2309.02020), ICCV 2023, by Yunhao Zou, Chenggang Yan, and Ying Fu.
 
 ------
-## News
-* 2023/08/17: Release the Raw-to-HDR dataset
----
+## Code
+
+### Training
+To train the RawHDR model:
+
+```bash
+python train.py
+```
+
+Key training settings:
+- Training data should be placed in `/data1/HDR/MAT_train/`
+- Model checkpoints will be saved in `./saved_model/canon_logl2/`
+- Training results/samples will be saved in `./train_results/canon_logl2/`
+
+
+### Testing
+To evaluate the trained model:
+
+```bash
+python test.py
+```
+
+Key testing settings:
+- Test data should be placed in `/data/HDR/MAT_test/`
+- The model evaluates patches of size 2048x2048
+
+
 ## Dataset Description
 We capture a real paired Raw-to-HDR dataset for HDR reconstruction from a single Raw image. The captured dataset covers a large range of HDR scenarios, including modern/ancient buildings, art districts, tourist attractions, street shops and restaurants, abandoned factories, city views and so on. Those images are captured at different times of the day, including daytime and nighttime, which further guarantees the diversity of the paired Raw-to-HDR dataset. 
 
