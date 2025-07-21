@@ -29,7 +29,13 @@ Key testing settings:
 - Test data should be placed in `/data/HDR/MAT_test/`
 - The model evaluates patches of size 2048x2048
 
+------
 
+## Pretrained Model
+You can download the pretrained model from [**OneDrive**](https://1drv.ms/u/c/451f7e5b32aa37e0/EaqD9NpDCCFDlHQ68yWLYFQBsNFXk1fBvWkDWcy6Dq95Gw?e=gqyglJ).
+
+
+------
 ## Dataset Description
 We capture a real paired Raw-to-HDR dataset for HDR reconstruction from a single Raw image. The captured dataset covers a large range of HDR scenarios, including modern/ancient buildings, art districts, tourist attractions, street shops and restaurants, abandoned factories, city views and so on. Those images are captured at different times of the day, including daytime and nighttime, which further guarantees the diversity of the paired Raw-to-HDR dataset. 
 
